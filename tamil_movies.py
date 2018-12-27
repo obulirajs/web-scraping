@@ -54,7 +54,4 @@ for page in pages:
 
 movie_ratings = pd.DataFrame({'movie': names, 'year': years})
 movie_ratings.drop_duplicates()
-print(movie_ratings)
-    
-    
-    
+# print(movie_ratings)
